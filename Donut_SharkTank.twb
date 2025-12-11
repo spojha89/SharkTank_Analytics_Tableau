@@ -1,0 +1,2020 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.1003.1601                               -->
+<workbook original-version='18.1' source-build='2025.2.4 (20252.25.1003.1601)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Shark Tank US dataset' inline='true' name='federated.1lujgtm0jlqj0r1e1dnq904hwinc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Shark Tank US dataset' name='textscan.02d5m5d0ofkd5r129ppfo07koizj'>
+            <connection class='textscan' directory='C:/Users/Reshma/OneDrive/Desktop/Subhra Trainings/Healthcare_ANBI/SharkTank/archive' filename='Shark Tank US dataset.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.02d5m5d0ofkd5r129ppfo07koizj' name='Shark Tank US dataset.csv' table='[Shark Tank US dataset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Season Number' ordinal='0' />
+            <column datatype='string' name='Startup Name' ordinal='1' />
+            <column datatype='integer' name='Episode Number' ordinal='2' />
+            <column datatype='integer' name='Pitch Number' ordinal='3' />
+            <column datatype='date' name='Season Start' ordinal='4' />
+            <column datatype='date' name='Season End' ordinal='5' />
+            <column datatype='date' name='Original Air Date' ordinal='6' />
+            <column datatype='string' name='Industry' ordinal='7' />
+            <column datatype='string' name='Business Description' ordinal='8' />
+            <column datatype='string' name='Company Website' ordinal='9' />
+            <column datatype='string' name='Pitchers Gender' ordinal='10' />
+            <column datatype='string' name='Pitchers Average Age' ordinal='11' />
+            <column datatype='string' name='Pitchers City' ordinal='12' />
+            <column datatype='string' name='Pitchers State' ordinal='13' />
+            <column datatype='string' name='Entrepreneur Names' ordinal='14' />
+            <column datatype='integer' name='Multiple Entrepreneurs' ordinal='15' />
+            <column datatype='real' name='US Viewership' ordinal='16' />
+            <column datatype='integer' name='Original Ask Amount' ordinal='17' />
+            <column datatype='real' name='Original Offered Equity' ordinal='18' />
+            <column datatype='integer' name='Valuation Requested' ordinal='19' />
+            <column datatype='integer' name='Got Deal' ordinal='20' />
+            <column datatype='integer' name='Total Deal Amount' ordinal='21' />
+            <column datatype='real' name='Total Deal Equity' ordinal='22' />
+            <column datatype='integer' name='Deal Valuation' ordinal='23' />
+            <column datatype='integer' name='Number of Sharks in Deal' ordinal='24' />
+            <column datatype='real' name='Investment Amount Per Shark' ordinal='25' />
+            <column datatype='real' name='Equity Per Shark' ordinal='26' />
+            <column datatype='string' name='Royalty Deal' ordinal='27' />
+            <column datatype='string' name='Advisory Shares Equity' ordinal='28' />
+            <column datatype='integer' name='Loan' ordinal='29' />
+            <column datatype='string' name='Deal Has Conditions' ordinal='30' />
+            <column datatype='integer' name='Barbara Corcoran Investment Amount' ordinal='31' />
+            <column datatype='real' name='Barbara Corcoran Investment Equity' ordinal='32' />
+            <column datatype='real' name='Mark Cuban Investment Amount' ordinal='33' />
+            <column datatype='real' name='Mark Cuban Investment Equity' ordinal='34' />
+            <column datatype='real' name='Lori Greiner Investment Amount' ordinal='35' />
+            <column datatype='real' name='Lori Greiner Investment Equity' ordinal='36' />
+            <column datatype='real' name='Robert Herjavec Investment Amount' ordinal='37' />
+            <column datatype='real' name='Robert Herjavec Investment Equity' ordinal='38' />
+            <column datatype='integer' name='Daymond John Investment Amount' ordinal='39' />
+            <column datatype='real' name='Daymond John Investment Equity' ordinal='40' />
+            <column datatype='real' name='Kevin O Leary Investment Amount' ordinal='41' />
+            <column datatype='real' name='Kevin O Leary Investment Equity' ordinal='42' />
+            <column datatype='real' name='Guest Investment Amount' ordinal='43' />
+            <column datatype='real' name='Guest Investment Equity' ordinal='44' />
+            <column datatype='string' name='Guest Name' ordinal='45' />
+            <column datatype='integer' name='Barbara Corcoran Present' ordinal='46' />
+            <column datatype='integer' name='Mark Cuban Present' ordinal='47' />
+            <column datatype='integer' name='Lori Greiner Present' ordinal='48' />
+            <column datatype='integer' name='Robert Herjavec Present' ordinal='49' />
+            <column datatype='integer' name='Daymond John Present' ordinal='50' />
+            <column datatype='integer' name='Kevin O Leary Present' ordinal='51' />
+            <column datatype='string' name='Guest Present' ordinal='52' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Season Number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Season Number]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Season Number</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Startup Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Startup Name]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Startup Name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Episode Number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Episode Number]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Episode Number</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pitch Number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pitch Number]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Pitch Number</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Season Start</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Season Start]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Season Start</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Season End</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Season End]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Season End</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Original Air Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Original Air Date]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Original Air Date</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Industry]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Industry</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Business Description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Business Description]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Business Description</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company Website</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Company Website]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Company Website</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pitchers Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pitchers Gender]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Pitchers Gender</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pitchers Average Age</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pitchers Average Age]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Pitchers Average Age</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pitchers City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pitchers City]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Pitchers City</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pitchers State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pitchers State]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Pitchers State</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Entrepreneur Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Entrepreneur Names]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Entrepreneur Names</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Multiple Entrepreneurs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Multiple Entrepreneurs]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Multiple Entrepreneurs</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>US Viewership</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[US Viewership]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>US Viewership</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Original Ask Amount</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Original Ask Amount]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Original Ask Amount</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Original Offered Equity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Original Offered Equity]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Original Offered Equity</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Valuation Requested</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Valuation Requested]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Valuation Requested</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Got Deal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Got Deal]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Got Deal</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Deal Amount</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Deal Amount]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Total Deal Amount</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Deal Equity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Deal Equity]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Total Deal Equity</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deal Valuation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Deal Valuation]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Deal Valuation</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Sharks in Deal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Sharks in Deal]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Number of Sharks in Deal</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Investment Amount Per Shark</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Investment Amount Per Shark]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Investment Amount Per Shark</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Equity Per Shark</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Equity Per Shark]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Equity Per Shark</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Royalty Deal</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Royalty Deal]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Royalty Deal</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Advisory Shares Equity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Advisory Shares Equity]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Advisory Shares Equity</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Loan</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Loan]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Loan</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deal Has Conditions</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Deal Has Conditions]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Deal Has Conditions</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Barbara Corcoran Investment Amount</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Barbara Corcoran Investment Amount]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Barbara Corcoran Investment Amount</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Barbara Corcoran Investment Equity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Barbara Corcoran Investment Equity]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Barbara Corcoran Investment Equity</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mark Cuban Investment Amount</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mark Cuban Investment Amount]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Mark Cuban Investment Amount</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mark Cuban Investment Equity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mark Cuban Investment Equity]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Mark Cuban Investment Equity</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lori Greiner Investment Amount</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Lori Greiner Investment Amount]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Lori Greiner Investment Amount</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lori Greiner Investment Equity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Lori Greiner Investment Equity]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Lori Greiner Investment Equity</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Robert Herjavec Investment Amount</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Robert Herjavec Investment Amount]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Robert Herjavec Investment Amount</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Robert Herjavec Investment Equity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Robert Herjavec Investment Equity]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Robert Herjavec Investment Equity</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Daymond John Investment Amount</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Daymond John Investment Amount]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Daymond John Investment Amount</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Daymond John Investment Equity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Daymond John Investment Equity]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Daymond John Investment Equity</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kevin O Leary Investment Amount</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Kevin O Leary Investment Amount]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Kevin O Leary Investment Amount</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kevin O Leary Investment Equity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Kevin O Leary Investment Equity]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Kevin O Leary Investment Equity</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Guest Investment Amount</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Guest Investment Amount]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Guest Investment Amount</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Guest Investment Equity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Guest Investment Equity]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Guest Investment Equity</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Guest Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Guest Name]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Guest Name</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Barbara Corcoran Present</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Barbara Corcoran Present]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Barbara Corcoran Present</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mark Cuban Present</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Mark Cuban Present]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Mark Cuban Present</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lori Greiner Present</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Lori Greiner Present]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Lori Greiner Present</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Robert Herjavec Present</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Robert Herjavec Present]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Robert Herjavec Present</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Daymond John Present</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Daymond John Present]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Daymond John Present</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kevin O Leary Present</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Kevin O Leary Present]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Kevin O Leary Present</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Guest Present</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Guest Present]</local-name>
+            <parent-name>[Shark Tank US dataset.csv]</parent-name>
+            <remote-alias>Guest Present</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Got Deal Level' datatype='string' name='[Calculation_420242148425334792]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Got Deal] = 1 THEN&#13;&#10;    &quot;Deal&quot;&#13;&#10;ELSE&#13;&#10;    &quot;No Deal&quot;&#13;&#10;END' />
+      </column>
+      <column datatype='integer' name='[Episode Number]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Pitch Number]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Pitchers City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Pitchers State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='integer' name='[Season Number]' role='dimension' type='ordinal' />
+      <column caption='Shark Tank US dataset.csv' datatype='table' name='[__tableau_internal_object_id__].[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]' role='measure' type='quantitative' />
+      <drill-paths>
+        <drill-path name='Pitchers State, Pitchers City'>
+          <field>[Pitchers State]</field>
+          <field>[Pitchers City]</field>
+        </drill-path>
+      </drill-paths>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Reshma/AppData/Local/Temp/TableauTemp/#TableauTemp_0n637xh0njq33g11380vr1tvvfzg.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='11/20/2025 02:42:11 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Season Number</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Season Number]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Season Number</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Startup Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Startup Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Startup Name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1397</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Episode Number</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Episode Number]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Episode Number</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pitch Number</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Pitch Number]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pitch Number</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1441</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Season Start</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Season Start]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Season Start</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Season End</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Season End]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Season End</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Original Air Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Original Air Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Original Air Date</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>351</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Industry</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Industry]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Industry</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Business Description</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Business Description]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Business Description</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1412</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Company Website</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Company Website]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Company Website</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1043</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pitchers Gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Pitchers Gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pitchers Gender</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pitchers Average Age</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Pitchers Average Age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pitchers Average Age</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pitchers City</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Pitchers City]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pitchers City</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>323</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pitchers State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Pitchers State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pitchers State</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>50</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Entrepreneur Names</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Entrepreneur Names]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Entrepreneur Names</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>967</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Multiple Entrepreneurs</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Multiple Entrepreneurs]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Multiple Entrepreneurs</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>US Viewership</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[US Viewership]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>US Viewership</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>246</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Original Ask Amount</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Original Ask Amount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Original Ask Amount</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>75</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Original Offered Equity</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Original Offered Equity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Original Offered Equity</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>43</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Valuation Requested</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Valuation Requested]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Valuation Requested</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>159</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Got Deal</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Got Deal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Got Deal</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Deal Amount</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total Deal Amount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Deal Amount</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>65</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Deal Equity</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Total Deal Equity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Deal Equity</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>62</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Deal Valuation</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Deal Valuation]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Deal Valuation</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>189</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number of Sharks in Deal</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Number of Sharks in Deal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Number of Sharks in Deal</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Investment Amount Per Shark</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Investment Amount Per Shark]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Investment Amount Per Shark</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>73</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Equity Per Shark</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Equity Per Shark]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Equity Per Shark</remote-alias>
+              <ordinal>26</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>72</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Royalty Deal</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Royalty Deal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Royalty Deal</remote-alias>
+              <ordinal>27</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Advisory Shares Equity</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Advisory Shares Equity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Advisory Shares Equity</remote-alias>
+              <ordinal>28</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Loan</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Loan]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Loan</remote-alias>
+              <ordinal>29</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Deal Has Conditions</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Deal Has Conditions]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Deal Has Conditions</remote-alias>
+              <ordinal>30</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Barbara Corcoran Investment Amount</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Barbara Corcoran Investment Amount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Barbara Corcoran Investment Amount</remote-alias>
+              <ordinal>31</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Barbara Corcoran Investment Equity</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Barbara Corcoran Investment Equity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Barbara Corcoran Investment Equity</remote-alias>
+              <ordinal>32</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Mark Cuban Investment Amount</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Mark Cuban Investment Amount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Mark Cuban Investment Amount</remote-alias>
+              <ordinal>33</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>47</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Mark Cuban Investment Equity</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Mark Cuban Investment Equity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Mark Cuban Investment Equity</remote-alias>
+              <ordinal>34</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>37</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Lori Greiner Investment Amount</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Lori Greiner Investment Amount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Lori Greiner Investment Amount</remote-alias>
+              <ordinal>35</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Lori Greiner Investment Equity</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Lori Greiner Investment Equity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Lori Greiner Investment Equity</remote-alias>
+              <ordinal>36</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Robert Herjavec Investment Amount</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Robert Herjavec Investment Amount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Robert Herjavec Investment Amount</remote-alias>
+              <ordinal>37</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>33</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Robert Herjavec Investment Equity</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Robert Herjavec Investment Equity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Robert Herjavec Investment Equity</remote-alias>
+              <ordinal>38</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Daymond John Investment Amount</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Daymond John Investment Amount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Daymond John Investment Amount</remote-alias>
+              <ordinal>39</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Daymond John Investment Equity</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Daymond John Investment Equity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Daymond John Investment Equity</remote-alias>
+              <ordinal>40</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>37</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Kevin O Leary Investment Amount</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Kevin O Leary Investment Amount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Kevin O Leary Investment Amount</remote-alias>
+              <ordinal>41</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>27</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Kevin O Leary Investment Equity</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Kevin O Leary Investment Equity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Kevin O Leary Investment Equity</remote-alias>
+              <ordinal>42</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Guest Investment Amount</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Guest Investment Amount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Guest Investment Amount</remote-alias>
+              <ordinal>43</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Guest Investment Equity</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Guest Investment Equity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Guest Investment Equity</remote-alias>
+              <ordinal>44</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Guest Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Guest Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Guest Name</remote-alias>
+              <ordinal>45</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>34</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Barbara Corcoran Present</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Barbara Corcoran Present]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Barbara Corcoran Present</remote-alias>
+              <ordinal>46</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Mark Cuban Present</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Mark Cuban Present]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Mark Cuban Present</remote-alias>
+              <ordinal>47</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Lori Greiner Present</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Lori Greiner Present]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Lori Greiner Present</remote-alias>
+              <ordinal>48</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Robert Herjavec Present</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Robert Herjavec Present]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Robert Herjavec Present</remote-alias>
+              <ordinal>49</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Daymond John Present</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Daymond John Present]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Daymond John Present</remote-alias>
+              <ordinal>50</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Kevin O Leary Present</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Kevin O Leary Present]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Kevin O Leary Present</remote-alias>
+              <ordinal>51</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Guest Present</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Guest Present]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Guest Present</remote-alias>
+              <ordinal>52</ordinal>
+              <family>Shark Tank US dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Season Number' />
+        <field-sort-custom-order field='Startup Name' />
+        <field-sort-custom-order field='Episode Number' />
+        <field-sort-custom-order field='Pitch Number' />
+        <field-sort-custom-order field='Season Start' />
+        <field-sort-custom-order field='Season End' />
+        <field-sort-custom-order field='Original Air Date' />
+        <field-sort-custom-order field='Industry' />
+        <field-sort-custom-order field='Business Description' />
+        <field-sort-custom-order field='Company Website' />
+        <field-sort-custom-order field='Pitchers Gender' />
+        <field-sort-custom-order field='Pitchers Average Age' />
+        <field-sort-custom-order field='Pitchers City' />
+        <field-sort-custom-order field='Pitchers State' />
+        <field-sort-custom-order field='Entrepreneur Names' />
+        <field-sort-custom-order field='Multiple Entrepreneurs' />
+        <field-sort-custom-order field='US Viewership' />
+        <field-sort-custom-order field='Original Ask Amount' />
+        <field-sort-custom-order field='Original Offered Equity' />
+        <field-sort-custom-order field='Valuation Requested' />
+        <field-sort-custom-order field='Got Deal' />
+        <field-sort-custom-order field='Calculation_420242148425334792' />
+        <field-sort-custom-order field='Total Deal Amount' />
+        <field-sort-custom-order field='Total Deal Equity' />
+        <field-sort-custom-order field='Deal Valuation' />
+        <field-sort-custom-order field='Number of Sharks in Deal' />
+        <field-sort-custom-order field='Investment Amount Per Shark' />
+        <field-sort-custom-order field='Equity Per Shark' />
+        <field-sort-custom-order field='Royalty Deal' />
+        <field-sort-custom-order field='Advisory Shares Equity' />
+        <field-sort-custom-order field='Loan' />
+        <field-sort-custom-order field='Deal Has Conditions' />
+        <field-sort-custom-order field='Barbara Corcoran Investment Amount' />
+        <field-sort-custom-order field='Barbara Corcoran Investment Equity' />
+        <field-sort-custom-order field='Mark Cuban Investment Amount' />
+        <field-sort-custom-order field='Mark Cuban Investment Equity' />
+        <field-sort-custom-order field='Lori Greiner Investment Amount' />
+        <field-sort-custom-order field='Lori Greiner Investment Equity' />
+        <field-sort-custom-order field='Robert Herjavec Investment Amount' />
+        <field-sort-custom-order field='Robert Herjavec Investment Equity' />
+        <field-sort-custom-order field='Daymond John Investment Amount' />
+        <field-sort-custom-order field='Daymond John Investment Equity' />
+        <field-sort-custom-order field='Kevin O Leary Investment Amount' />
+        <field-sort-custom-order field='Kevin O Leary Investment Equity' />
+        <field-sort-custom-order field='Guest Investment Amount' />
+        <field-sort-custom-order field='Guest Investment Equity' />
+        <field-sort-custom-order field='Guest Name' />
+        <field-sort-custom-order field='Barbara Corcoran Present' />
+        <field-sort-custom-order field='Mark Cuban Present' />
+        <field-sort-custom-order field='Lori Greiner Present' />
+        <field-sort-custom-order field='Robert Herjavec Present' />
+        <field-sort-custom-order field='Daymond John Present' />
+        <field-sort-custom-order field='Kevin O Leary Present' />
+        <field-sort-custom-order field='Guest Present' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <object-graph>
+        <objects>
+          <object caption='Shark Tank US dataset.csv' id='Shark Tank US dataset.csv_58E9F2FFE0DB4AFF9F47E7C8F02DA48A'>
+            <properties context=''>
+              <relation connection='textscan.02d5m5d0ofkd5r129ppfo07koizj' name='Shark Tank US dataset.csv' table='[Shark Tank US dataset#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='Season Number' ordinal='0' />
+                  <column datatype='string' name='Startup Name' ordinal='1' />
+                  <column datatype='integer' name='Episode Number' ordinal='2' />
+                  <column datatype='integer' name='Pitch Number' ordinal='3' />
+                  <column datatype='date' name='Season Start' ordinal='4' />
+                  <column datatype='date' name='Season End' ordinal='5' />
+                  <column datatype='date' name='Original Air Date' ordinal='6' />
+                  <column datatype='string' name='Industry' ordinal='7' />
+                  <column datatype='string' name='Business Description' ordinal='8' />
+                  <column datatype='string' name='Company Website' ordinal='9' />
+                  <column datatype='string' name='Pitchers Gender' ordinal='10' />
+                  <column datatype='string' name='Pitchers Average Age' ordinal='11' />
+                  <column datatype='string' name='Pitchers City' ordinal='12' />
+                  <column datatype='string' name='Pitchers State' ordinal='13' />
+                  <column datatype='string' name='Entrepreneur Names' ordinal='14' />
+                  <column datatype='integer' name='Multiple Entrepreneurs' ordinal='15' />
+                  <column datatype='real' name='US Viewership' ordinal='16' />
+                  <column datatype='integer' name='Original Ask Amount' ordinal='17' />
+                  <column datatype='real' name='Original Offered Equity' ordinal='18' />
+                  <column datatype='integer' name='Valuation Requested' ordinal='19' />
+                  <column datatype='integer' name='Got Deal' ordinal='20' />
+                  <column datatype='integer' name='Total Deal Amount' ordinal='21' />
+                  <column datatype='real' name='Total Deal Equity' ordinal='22' />
+                  <column datatype='integer' name='Deal Valuation' ordinal='23' />
+                  <column datatype='integer' name='Number of Sharks in Deal' ordinal='24' />
+                  <column datatype='real' name='Investment Amount Per Shark' ordinal='25' />
+                  <column datatype='real' name='Equity Per Shark' ordinal='26' />
+                  <column datatype='string' name='Royalty Deal' ordinal='27' />
+                  <column datatype='string' name='Advisory Shares Equity' ordinal='28' />
+                  <column datatype='integer' name='Loan' ordinal='29' />
+                  <column datatype='string' name='Deal Has Conditions' ordinal='30' />
+                  <column datatype='integer' name='Barbara Corcoran Investment Amount' ordinal='31' />
+                  <column datatype='real' name='Barbara Corcoran Investment Equity' ordinal='32' />
+                  <column datatype='real' name='Mark Cuban Investment Amount' ordinal='33' />
+                  <column datatype='real' name='Mark Cuban Investment Equity' ordinal='34' />
+                  <column datatype='real' name='Lori Greiner Investment Amount' ordinal='35' />
+                  <column datatype='real' name='Lori Greiner Investment Equity' ordinal='36' />
+                  <column datatype='real' name='Robert Herjavec Investment Amount' ordinal='37' />
+                  <column datatype='real' name='Robert Herjavec Investment Equity' ordinal='38' />
+                  <column datatype='integer' name='Daymond John Investment Amount' ordinal='39' />
+                  <column datatype='real' name='Daymond John Investment Equity' ordinal='40' />
+                  <column datatype='real' name='Kevin O Leary Investment Amount' ordinal='41' />
+                  <column datatype='real' name='Kevin O Leary Investment Equity' ordinal='42' />
+                  <column datatype='real' name='Guest Investment Amount' ordinal='43' />
+                  <column datatype='real' name='Guest Investment Equity' ordinal='44' />
+                  <column datatype='string' name='Guest Name' ordinal='45' />
+                  <column datatype='integer' name='Barbara Corcoran Present' ordinal='46' />
+                  <column datatype='integer' name='Mark Cuban Present' ordinal='47' />
+                  <column datatype='integer' name='Lori Greiner Present' ordinal='48' />
+                  <column datatype='integer' name='Robert Herjavec Present' ordinal='49' />
+                  <column datatype='integer' name='Daymond John Present' ordinal='50' />
+                  <column datatype='integer' name='Kevin O Leary Present' ordinal='51' />
+                  <column datatype='string' name='Guest Present' ordinal='52' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='DoNut'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Shark Tank US dataset' name='federated.1lujgtm0jlqj0r1e1dnq904hwinc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lujgtm0jlqj0r1e1dnq904hwinc'>
+            <column caption='AVG(0)' datatype='real' name='[Calculation_420242148420902917]' role='measure' type='quantitative' user:unnamed='Sheet 1'>
+              <calculation class='tableau' formula='AVG(0)' />
+            </column>
+            <column caption='AVG(0)' datatype='real' name='[Calculation_420242148420943879]' role='measure' type='quantitative' user:unnamed='Sheet 1'>
+              <calculation class='tableau' formula='AVG(0)' />
+            </column>
+            <column caption='Got Deal Level' datatype='string' name='[Calculation_420242148425334792]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Got Deal] = 1 THEN&#13;&#10;    &quot;Deal&quot;&#13;&#10;ELSE&#13;&#10;    &quot;No Deal&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='integer' name='[Got Deal]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Pitch Number]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_420242148425334792]' derivation='None' name='[none:Calculation_420242148425334792:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Got Deal]' derivation='None' name='[none:Got Deal:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Pitch Number]' derivation='Sum' name='[sum:Pitch Number:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_420242148420902917]' derivation='User' name='[usr:Calculation_420242148420902917:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_420242148420943879]' derivation='User' name='[usr:Calculation_420242148420943879:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1lujgtm0jlqj0r1e1dnq904hwinc].[usr:Calculation_420242148420943879:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.1lujgtm0jlqj0r1e1dnq904hwinc].[usr:Calculation_420242148420902917:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.1lujgtm0jlqj0r1e1dnq904hwinc].[usr:Calculation_420242148420943879:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' value='274' />
+            <format attr='width' value='753' />
+            <format attr='wrap' value='off' />
+            <format attr='text-align' value='center' />
+            <format attr='vertical-align' value='center' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' value='center' />
+            <format attr='vertical-align' value='center' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#c0c0c0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1lujgtm0jlqj0r1e1dnq904hwinc].[sum:Pitch Number:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1lujgtm0jlqj0r1e1dnq904hwinc].[usr:Calculation_420242148420902917:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1lujgtm0jlqj0r1e1dnq904hwinc].[sum:Pitch Number:qk]' />
+              <text column='[federated.1lujgtm0jlqj0r1e1dnq904hwinc].[none:Calculation_420242148425334792:nk]' />
+              <color column='[federated.1lujgtm0jlqj0r1e1dnq904hwinc].[none:Got Deal:ok]' />
+              <color column='[federated.1lujgtm0jlqj0r1e1dnq904hwinc].[:Measure Names]' />
+              <size column='[federated.1lujgtm0jlqj0r1e1dnq904hwinc].[sum:Pitch Number:qk]' />
+              <wedge-size column='[federated.1lujgtm0jlqj0r1e1dnq904hwinc].[sum:Pitch Number:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='12' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1.5492265224456787' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1lujgtm0jlqj0r1e1dnq904hwinc].[usr:Calculation_420242148420943879:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1lujgtm0jlqj0r1e1dnq904hwinc].[sum:Pitch Number:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1lujgtm0jlqj0r1e1dnq904hwinc].[usr:Calculation_420242148420902917:qk] + [federated.1lujgtm0jlqj0r1e1dnq904hwinc].[usr:Calculation_420242148420943879:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{FC7C6A57-4814-44DE-A2BF-458625992AE5}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='DoNut'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1lujgtm0jlqj0r1e1dnq904hwinc].[none:Got Deal:ok]&#10;[federated.1lujgtm0jlqj0r1e1dnq904hwinc].[:Measure Names]' type='color' />
+            <card pane-specification-id='1' param='[federated.1lujgtm0jlqj0r1e1dnq904hwinc].[sum:Pitch Number:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1lujgtm0jlqj0r1e1dnq904hwinc].[:Measure Names]</field>
+            <field>[federated.1lujgtm0jlqj0r1e1dnq904hwinc].[none:Calculation_420242148425334792:nk]</field>
+            <field>[federated.1lujgtm0jlqj0r1e1dnq904hwinc].[none:Got Deal:ok]</field>
+            <field>[federated.1lujgtm0jlqj0r1e1dnq904hwinc].[none:Pitch Number:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E783E115-7C19-48C0-BBAD-318F31A8919F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='DoNut' width='192'>
+      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
+      AHyamv8PJb9rjOvx6oYAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
